@@ -1,0 +1,28 @@
+#table_1, #table_1 th, #table_1 td {
+    border: 1px solid black;
+}
+
+#table_2 {
+    border: 1px solid black;
+}
+
+tr[content] {
+    background-color: coral;
+}
+
+tr[content~="table_2"] {
+    background-color: darkslateblue;
+}
+
+[class|="row"] {
+    background-color: chartreuse;
+}
+
+#table_3, #table_3 th, #table_3 td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+td:empty {
+    background-color: cyan;
+}

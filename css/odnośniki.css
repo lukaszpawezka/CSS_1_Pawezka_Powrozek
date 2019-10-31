@@ -1,0 +1,69 @@
+
+div.a {
+    position: relative;
+    width: 600px;
+    height: 300px;
+    border: 3px solid red;
+    top: 25px;
+    line-height: 200%;
+}
+
+div.b {
+    position: absolute;
+    left: auto;
+    width: 100px;
+    height: 120px;
+    border: 3px solid blue;
+}
+
+div.b:hover {
+    background-color: blue;
+}
+
+div.c {
+    position: absolute;
+    left: 150px;
+    width: 200px;
+    height: 120px;
+    border: 3px solid green;
+    font-family: "Bodoni MT";
+}
+
+div.c:hover {
+    background-color: green;
+}
+
+div.d {
+    position: relative;
+    border: 3px solid yellow;
+    right: 10px;
+    top: 150px;
+}
+
+div.d:hover {
+    background-color: yellow;
+}
+
+.div_float {
+    float: left;
+    margin-left: 15px;
+    border: 1px dotted black;
+    padding: 3px;
+}
+
+.div_clear {
+    margin-top: 3px;
+    clear: both;
+}
+
+div:last-child {
+    background-color: cornsilk;
+}
+
+a:link {
+    background-color: cyan;
+}
+
+a:visited {
+    background-color: blueviolet;
+}

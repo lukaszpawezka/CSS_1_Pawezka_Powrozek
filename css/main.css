@@ -1,0 +1,42 @@
+
+#header {
+    text-align: center;
+    /*border: 3px double black;*/
+    border-widht: 3px;
+    border-style: double;
+    border-color: black;
+    padding: 5px;
+    background-image: radial-gradient(cornflowerblue, blueviolet);
+    background-image: url("../img/confetti_cut.jpg");
+    background-repeat: repeat-y;
+}
+
+#header:active strong {
+    background-color: mediumspringgreen;
+}
+
+#main {
+    /*background-image: url("../img/nature_2.jpg");*/
+    /*background-repeat: no-repeat;*/
+    /*background-attachment: fixed;*/
+    /*background-position: right;*/
+    background: cornflowerblue url("../img/nature_2.jpg") no-repeat fixed right;
+}
+
+@media only screen and (max-width: 1000px) {
+    #header {
+        background-color: mediumspringgreen;
+    }
+    #navigation_links {
+        display: none;
+    }
+}
+
+#navigation_links {
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+a:visited {
+    color: pink;
+}

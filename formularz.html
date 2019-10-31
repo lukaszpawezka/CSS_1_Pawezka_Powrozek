@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Formularz</title>
+
+    <meta name = "description" content="Strona główna strony na potrzeby zadanie 3 z webówko o tytulue CSS_1"/>
+    <meta name="keywords" content="strona, główna, web, webówka, css"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+
+    <link rel="stylesheet" href="css/main.css?v=1.0">
+    <link rel="stylesheet" href="css/formularz.css?v=1.0">
+
+    <style>
+        #main {
+            background: none;
+        }
+    </style>
+
+</head>
+<body>
+    <header id="header">
+        <strong>CSS_1 <br/> Łukasz Pawęzka i Kacper Powrózek</strong>
+    </header>
+
+    <main id="main">
+        <nav id="navigation_links">
+            <a href="akapity.html">Kilka akapitów tekstu</a> |
+            <a href="odnośniki.html">Lista odnośników</a> |
+            <a href="tabele.html">Tabela</a> |
+            <a href="formularz.html">Formularz</a>
+        </nav>
+
+        <form method="post">
+            Imię: <input type="text" id="text_1" name="text_1" placeholder="Wpisz imię, jestem enabled"> <br/>
+            Nazwisko: <input type="text" name="text_2" placeholder="Jestem disabled" disabled> <br/>
+            Wiek: <input type="text" name="text_3" placeholder="Jestem required" required> <br/>
+            <input type="checkbox" name="checkbox_1" value="Placki">Lubię placki <br/>
+        </form>
+
+        <p><a href="#news1">Lubię barmanów</a></p>
+        <p><a href="#news2">Lubię piłkarzy</a></p>
+
+        <p id="news1"><b>Lukasz jest najpiękniejszy</b></p>
+        <p id="news2"><b>Kacper jest najpiękniejszy</b></p>
+
+    </main>
+
+    <footer id="footer">
+        <p>Only child</p>
+    </footer>
+
+</body>
+</html>

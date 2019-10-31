@@ -1,0 +1,45 @@
+
+#paragraphs {
+    font-size: 95%;
+}
+
+#paragraph_em {
+    font-size: 2.5em;
+}
+
+#paragraph_px {
+    font-size: 28px;
+}
+
+#paragraph_pt {
+    font-size: 12pt;
+}
+
+.paragraph_background_fixed {
+    font-size: 30px;
+}
+
+section p {
+    font-variant: small-caps;
+}
+
+section > p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+p:first-child {
+    background-color: darkgreen;
+}
+
+p:last-of-type {
+    background-color: blueviolet;
+}
+
+p:nth-child(2) {
+    background-color: aquamarine;
+}
+
+p:nth-last-child(2) {
+    background-color: coral;
+}
